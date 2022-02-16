@@ -19,14 +19,14 @@ header img {
 }
 
 header {
-    font-size: 0.9em;
+    font-size: 0.8em;
     letter-spacing: 0;
 }
 
 section:nth-child(1) {
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(234, 230, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
-    padding-top: 10em;
+    padding-top: 8em;
 }
 
 h1 {
@@ -43,10 +43,54 @@ h2 {
     font-size: 1.7em;
 }
 
+
+/*
 .para-maniere-travail {
     padding: 0 130px;
 }
+*/
 
 .svg-blue {
     filter: invert(16%) sepia(11%) saturate(3708%) hue-rotate(180deg) brightness(86%) contrast(95%);
+}
+
+h6 {
+    font-size: 0.77em;
+    font-weight: 600;
+}
+
+.collapse-link {
+    text-decoration: none;
+}
+
+.collapse-header:hover {
+    text-decoration: underline;
+}
+
+.collapse-header {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.collapse-header::before {
+    padding-right: 10px;
+    content: "+";
+}
+
+
+/*
+
+.collapse-header::before:active {
+    padding-right: 10px;
+    content: "-";
+}
+
+.collapse-header:hover::before {
+    text-decoration: none;
+}
+*/
+
+.multi-collapse {
+    padding-left: 20px;
+    font-size: 0.8em;
 }
