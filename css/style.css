@@ -72,9 +72,15 @@ h6 {
     font-weight: 600;
 }
 
-.collapse-header::before {
+.collapse-link::before {
     padding-right: 10px;
     content: "+";
+    float: left;
+    font-weight: bold;
+}
+
+.collapse-link:focus:before {
+    content: "-";
 }
 
 
