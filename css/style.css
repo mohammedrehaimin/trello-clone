@@ -83,19 +83,6 @@ h6 {
     content: "-";
 }
 
-
-/*
-
-.collapse-header::before:active {
-    padding-right: 10px;
-    content: "-";
-}
-
-.collapse-header:hover::before {
-    text-decoration: none;
-}
-*/
-
 .multi-collapse {
     padding-left: 20px;
     font-size: 0.8em;
@@ -151,4 +138,30 @@ section {
 
 .logo-apple-google {
     width: 150px;
+}
+
+select {
+    width: 200px;
+    padding: 5px 0;
+    color: rgb(192, 189, 189);
+    border-color: #f0f0f0;
+}
+
+footer .nav-link {
+    font-size: 0.75em;
+    text-decoration: underline;
+    color: gray;
+    padding: 0 10px;
+}
+
+footer .nav-link:hover {
+    color: #000;
+}
+
+footer img {
+    width: 150px;
+}
+
+footer p {
+    font-size: 0.85em;
 }
